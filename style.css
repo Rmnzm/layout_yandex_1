@@ -1,0 +1,113 @@
+html {
+    padding: 18px;
+    background: white;
+}
+
+body {
+    max-width: 1920px;
+    min-width: 320px;
+    background-color: #cccccc;
+}
+
+/*-------------------------------------------------------------------------*/
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15%;
+}
+
+header > img:hover {
+    cursor: pointer;
+}
+
+/*------------------------------------------------------------------------*/
+
+section {
+    padding-bottom: 2em;
+}
+
+/*--------------------------------------------------------------------------*/
+
+.info {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.arrow {
+    background-color: hsl(50,100%,60.8%);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    box-shadow: 1px 1px hsl(21,100%,66.7%);
+}
+
+.arrow:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+.cars {
+    width: 50%;
+}
+
+.info > .cars > .intro > p {
+    font-size: 32px;
+}
+
+/*-----------------------------------------------------------------------*/
+
+#box2 {
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    width: 50%;
+    background: url(images/video.png);
+    background-size: cover;
+}
+
+section > .video > .intro {
+    background: rgba(128,128,128,.7);
+    margin-top: -1.5em;
+}
+
+section > .video > .intro > p {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+
+div > .play {
+    margin: auto;
+    margin-top: 7em;
+    margin-bottom: 7em;
+}
+
+.play {
+    background-color: hsl(50,100%,60.8%);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 1px 1px hsl(21,100%,66.7%);
+}
+
+.play:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+/*--------------------------------------------------------------------------*/
+

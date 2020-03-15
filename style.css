@@ -111,3 +111,93 @@ div > .play {
 
 /*--------------------------------------------------------------------------*/
 
+section > .choice > h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+section > .choice > .table > .value > h3 {
+    font-size: 28px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+section > .choice > .table > .value > p {
+    font-size: 18px;
+}
+
+section > .choice > .table > .value > .logo {
+    height: 100px;
+}
+
+section > .choice > .table {
+    padding: 3em;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+}
+
+/*-----------------------------------------------------------------------*/
+
+section > .footer > h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+section > .footer > .try {
+    margin-top: 1em !important;
+    padding-bottom: 0.8em;
+    margin: auto;
+    height: 75px;
+    width: 300px;
+    background-color: hsl(50,100%,60.8%);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+section > .footer > .try:hover {
+    cursor: pointer;
+}
+
+section > .footer > .try > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section > .footer > .try > div > h3 {
+    font-size: 28px;
+}
+
+section > .footer > .hover  {
+    margin-top: 1em !important;
+    padding-bottom: 0.8em;
+    margin: auto;
+    height: 75px;
+    width: 300px;
+    background-color: hsl(50,100%,60.8%);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+section > .footer > .hover > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section > .footer > .hover > div > h3 {
+    font-size: 28px;
+}
+
+section > .footer > .hover:hover  {
+    background: linear-gradient(90deg, rgba(201,91,12,1) 0%, rgba(229,233,45,1) 34%, rgba(53,130,20,1) 100%);
+    cursor: pointer;
+}
